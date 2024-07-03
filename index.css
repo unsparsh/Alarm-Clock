@@ -51,7 +51,8 @@ body, .container, .content-box{
     border-radius: 10px;
     padding: 30px 30px 38px;
     flex-direction: column;
-    box-shadow: 7px 7px 7px;
+    /* box-shadow: 7px 7px 7px; */
+    border: 2px solid rgba(0, 0, 0, 0.326);
 }
 .container img{
     max-width: 103px;
@@ -70,7 +71,7 @@ body, .container, .content-box{
     pointer-events: none;
 }
 .content-box .column{
-    border: 1px solid #999;
+    border: 1px solid #1b1b1b;
     padding: 0px 10px;
     border-radius: 5px;
     width: calc(100%/3 - 5px);
@@ -81,6 +82,7 @@ body, .container, .content-box{
     height: 53px;
     width: 100%;
     font-size: 19px;
+    background-color: transparent;
 }
 .container button{
     width: 100%;
