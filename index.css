@@ -6,7 +6,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-color: #36ba98;
+    /* background-color: #36ba98; */
+
+    /* gradient code start */
+    background: hsla(165, 55%, 47%, 1);
+
+background: linear-gradient(90deg, hsla(165, 55%, 47%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(165, 55%, 47%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(165, 55%, 47%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#36BA98", endColorstr="#0B3866", GradientType=1 );
+    /* gradient code ends */
     min-height: 100vh;
 
 }
@@ -18,10 +30,12 @@ body, .container, .content-box{
 }
 .container{
     background-color: white;
+   
     width: 440px;
     border-radius: 10px;
     padding: 30px 30px 38px;
     flex-direction: column;
+    box-shadow: 7px 7px 7px;
 }
 .container img{
     max-width: 103px;
@@ -62,6 +76,14 @@ body, .container, .content-box{
     font-size: 20px;
     background-color: #36ba98;
     color: white;
+    border-radius: 10px;
+    
+}
+
+.container button:hover {
+    background-color: #36ba98;
+    box-shadow: 7px 7px 7px black;
+    color: black;
 }
 
 
