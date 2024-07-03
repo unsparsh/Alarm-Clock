@@ -51,8 +51,8 @@ body, .container, .content-box{
     border-radius: 10px;
     padding: 30px 30px 38px;
     flex-direction: column;
-    /* box-shadow: 7px 7px 7px; */
-    border: 2px solid rgba(0, 0, 0, 0.326);
+    box-shadow: 7px 3px 7px;
+    /* border: 2px solid rgba(0, 0, 0, 0.326); */
 }
 .container img{
     max-width: 103px;
