@@ -35,6 +35,10 @@ body, .container, .content-box{
     width: 100%;
     justify-content: space-between;
 }
+.container .content-box.disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}
 .content-box .column{
     border: 1px solid #999;
     padding: 0px 10px;
